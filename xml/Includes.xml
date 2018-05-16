@@ -32,6 +32,9 @@
 	<include file="Embuary_WidgetCalls.xml" />
 	<include file="Embuary_PositionSelectorIncludes.xml" />
 
+	<constant name="sideWidth">450</constant>
+	<constant name="sideWidthNegOffset">-450</constant>
+
 	<!-- General -->
 	<expression name="SkinSetup">[!Skin.HasSetting(SkinSetup) + !Window.IsVisible(startup) + !Window.IsVisible(1119)]</expression>
 
