@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.embuary" version="17.0.7" name="Embuary (Krypton)" provider-name="sualfred">
+<addon id="skin.embuary.ionic" version="0.0.1" name="Embuary Ionic (Krypton)" provider-name="ionic">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.globalsearch" version="7.0.0"/>
@@ -18,9 +18,9 @@
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">Embuary Skin von Sualfred</summary>
-		<summary lang="en_US">Embuary skin by sualfred</summary>
-		<summary lang="nl_NL">Embuary skin door sualfred</summary>
+		<summary lang="de_DE">Embuary Skin von Sualfred edited by ionic</summary>
+		<summary lang="en_US">Embuary skin by Sualfred edited by ionic</summary>
+		<summary lang="nl_NL">Embuary skin door Sualfred edited by ionic</summary>
 		<description lang="de_DE">Embuary ist dem Web UI von Emby nachempfunden und für Emby-For-Kodi Nutzer entwickelt worden.</description>
 		<description lang="en_US">Embuary is based on the web UI of Emby and has been developed for Emby-For-kodi User.</description>
 		<description lang="nl_NL">Embuary is gebaseerd op Emby's Web UI en ontwikkeld voor Emby-For-Kodi gebruikers.</description>
@@ -29,7 +29,7 @@
 		<platform>all</platform>
 		<license>CC by-nc-nd 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum></forum>
-		<source>https://github.com/sualfred/skin.embuary</source>
+		<source>https://github.com/danielkochc/skin.embuary.git</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
