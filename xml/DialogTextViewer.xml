@@ -15,7 +15,7 @@
 			<include>Dialog_PopupOpenClose</include>
 			<centerleft>50%</centerleft>
 			<centertop>50%</centertop>
-			<width>800</width>
+			<width>1400</width>
 			<height max="940">auto</height>
 			<orientation>vertical</orientation>
 			<itemgap>20</itemgap>
@@ -24,7 +24,7 @@
 			<control id="1" type="label">
 				<centerleft>50%</centerleft>
 				<width>100%</width>
-				<height>26</height>
+				<height>50</height>
 				<font>Med28</font>
 				<autoscroll>false</autoscroll>
 				<align>center</align>
