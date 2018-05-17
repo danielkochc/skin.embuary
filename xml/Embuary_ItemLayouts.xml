@@ -62,7 +62,7 @@
 					<visible>!$PARAM[focused] | !Control.HasFocus($PARAM[id])</visible>
 				</control>
 				<control type="label">
-					<top>30</top>
+					<top>40</top>
 					<width>$PARAM[width]</width>
 					<height>30</height>
 					<label>$PARAM[sublabel]</label>
@@ -74,7 +74,7 @@
 					<visible>$PARAM[focused] + Control.HasFocus($PARAM[id])</visible>
 				</control>
 				<control type="label">
-					<top>30</top>
+					<top>40</top>
 					<width>$PARAM[width]</width>
 					<height>30</height>
 					<label>$PARAM[sublabel]</label>
@@ -109,7 +109,7 @@
 					<textoffsetx>$PARAM[textoffsetx]</textoffsetx>
 				</control>
 				<control type="label">
-					<top>30</top>
+					<top>40</top>
 					<width>$PARAM[width]</width>
 					<height>30</height>
 					<label>$PARAM[sublabel]</label>
