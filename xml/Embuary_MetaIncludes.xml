@@ -954,7 +954,7 @@
 				<width>auto</width>
 				<height>40</height>
 				<label>[CAPITALIZE]$LOCALIZE[31189][/CAPITALIZE]</label>
-				<font>reg14</font>
+				<font>reg22</font>
 				<aligny>top</aligny>
 				<textcolor>emby</textcolor>
 				<visible>$PARAM[visible]</visible>
