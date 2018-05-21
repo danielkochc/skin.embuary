@@ -288,8 +288,8 @@
 							<align>justify</align>
 							<aligny>top</aligny>
 							<label>$VAR[ListViewPlot]</label>
-							<font>Light24</font>
 							<autoscroll>false</autoscroll>
+							<font>Light32</font>
 							<visible>!Window.IsVisible(musicplaylist)</visible>
 						</control>
 						<!-- Buttons -->

@@ -28,7 +28,7 @@
 					<bottom>35%</bottom>
 					<width>100%</width>
 					<height>50</height>
-					<font>Med28</font>
+					<font>Med44</font>
 					<label>$PARAM[label]</label>
 					<align>center</align>
 					<aligny>top</aligny>
@@ -269,7 +269,7 @@
 					<top>20</top>
 					<width>$PARAM[width]</width>
 					<height>50</height>
-					<font>Med22</font>
+					<font>Med30</font>
 					<textcolor>panel_text</textcolor>
 					<label>$PARAM[label]</label>
 					<textoffsetx>15</textoffsetx>

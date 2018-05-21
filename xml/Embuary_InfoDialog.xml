@@ -91,8 +91,8 @@
 						<align>justify</align>
 						<aligny>top</aligny>
 						<label>$INFO[ListItem.Tagline,[B],[/B][CR]]$INFO[ListItem.Plot]</label>
-						<font>Light24</font>
 						<autoscroll>false</autoscroll>
+						<font>Light32</font>
 					</control>
 					<control type="label">
 						<height>20</height>
@@ -361,7 +361,7 @@
 						<align>justify</align>
 						<aligny>top</aligny>
 						<label>$INFO[ListItem.Plot]</label>
-						<font>Light24</font>
+						<font>Light32</font>
 						<autoscroll>false</autoscroll>
 					</control>
 					<control type="label">
@@ -423,7 +423,7 @@
 					<centerleft>50%</centerleft>
 					<width>100%</width>
 					<height>26</height>
-					<font>Med28</font>
+					<font>Med44</font>
 					<autoscroll>false</autoscroll>
 					<align>center</align>
 					<aligny>top</aligny>
@@ -472,7 +472,7 @@
 				<right>70</right>
 				<width>1000</width>
 				<height>87</height>
-				<font>Med23</font>
+				<font>Med30</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<focusedcolor>emby</focusedcolor>

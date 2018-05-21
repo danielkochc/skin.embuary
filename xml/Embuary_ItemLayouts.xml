@@ -10,7 +10,7 @@
 				<left>$PARAM[left]</left>
 				<width>1000</width>
 				<height>87</height>
-				<font>Med23</font>
+				<font>Med30</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<label>$PARAM[headline]</label>
@@ -21,7 +21,7 @@
 				<left>$PARAM[left]</left>
 				<width>1000</width>
 				<height>87</height>
-				<font>Med23</font>
+				<font>Med30</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<label>$PARAM[headline]</label>

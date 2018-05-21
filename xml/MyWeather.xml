@@ -22,7 +22,7 @@
 				<control type="label" id="101">
 					<width>auto</width>
 					<height>40</height>
-					<font>Med18</font>
+					<font>Med44</font>
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>softgrey</textcolor>
@@ -31,7 +31,7 @@
 				<control type="button" id="2">
 					<width>auto</width>
 					<height>40</height>
-					<font>Med18</font>
+					<font>Med44</font>
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>softgrey</textcolor>

@@ -39,7 +39,7 @@
 						<control type="label">
 							<width>365</width>
 							<height>30</height>
-							<font>Med20</font>
+							<font>Med32</font>
 							<label>$INFO[ListItem.Label]</label>
 							<aligny>center</aligny>
 							<textoffsetx>10</textoffsetx>
