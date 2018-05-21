@@ -466,6 +466,12 @@
 			<linespacing>1.2</linespacing>
 			<size>34</size>
 		</font>
+		<font>
+			<name>Med44</name>
+			<filename>Ubuntu-M.ttf</filename>
+			<linespacing>1.2</linespacing>
+			<size>44</size>
+		</font>
 		<!-- Bold -->
 		<font>
 			<name>Bold18</name>
