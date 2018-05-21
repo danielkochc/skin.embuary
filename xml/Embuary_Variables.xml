@@ -1267,7 +1267,7 @@
 		<value condition="!String.IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Album_Description)]</value>
 		<value condition="!String.IsEmpty(ListItem.Property(Artist_Description))">$INFO[ListItem.Property(Artist_Description)]</value>
 		<value condition="!String.IsEmpty(ListItem.AddonDescription)">$INFO[ListItem.AddonDescription]</value>
-		<value>$INFO[ListItem.Tagline,[B],[/B][CR][CR]]$INFO[ListItem.Plot]</value>
+		<value>$INFO[ListItem.Tagline,[B],[/B][CR]]$INFO[ListItem.Plot]</value>
 	</variable>
 	<variable name="SetViewPlot">
 		<value condition="!String.IsEmpty(ListItem.Plot)">$INFO[ListItem.Tagline,[B],[/B][CR]]$INFO[ListItem.Plot]</value>
