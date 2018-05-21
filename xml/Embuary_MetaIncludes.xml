@@ -68,6 +68,49 @@
 			</control>
 		</definition>
 	</include>
+	<include name="MetaMovieInfosList">
+		<param name="width">590</param>
+		<definition>
+			<control type="grouplist">
+
+				<width>$PARAM[width]</width>
+				<height>80</height>
+				<control type="grouplist">
+					<itemgap>0</itemgap>
+					<height>40</height>
+					<include>MpaaIcon</include>
+				</control>
+				<control type="grouplist">
+					<itemgap>10</itemgap>
+					<height>40</height>
+					<orientation>horizontal</orientation>
+					<control type="label">
+						<label>$VAR[DurationMinutes]   </label>
+						<include>MetaLabel</include>
+						<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					</control>
+
+					<control type="label">
+						<include>MetaLabel</include>
+						<label>$INFO[ListItem.Endtime,$LOCALIZE[31037] ]   </label>
+						<visible>String.IsEmpty(ListItem.EndTimeResume) + !String.IsEmpty(ListItem.Endtime)</visible>
+					</control>
+
+					<include>CCIcon</include>
+					<include>MetaRating</include>
+					<include>SkinHelperRatings</include>
+					<control type="label">
+						<include>MetaLabel</include>
+						<label>$INFO[ListItem.EndTimeResume,$LOCALIZE[31037] ]   </label>
+						<visible>!String.IsEmpty(ListItem.EndTimeResume)</visible>
+					</control>
+
+				</control>
+
+			</control>
+		</definition>
+	</include>
+
 	<!-- TV show -->
 	<include name="MetaShowInfos">
 		<param name="width">1040</param>
