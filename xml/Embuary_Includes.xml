@@ -347,7 +347,7 @@
 					<include content="SideMenuButton">
 						<param name="id">902</param>
 						<param name="onup">901</param>
-						<param name="ondown">903</param>
+						<param name="ondown">5000</param>
 						<param name="onright">$PARAM[onright]</param>
 						<param name="label">20343</param>
 						<param name="icon">&#xE04A;</param>
@@ -358,8 +358,50 @@
 						<param name="visible">!Skin.HasSetting(HideSPTVshows)</param>
 					</include>
 					<include content="SideMenuButton">
-						<param name="id">903</param>
+						<param name="id">5000</param>
 						<param name="onup">902</param>
+						<param name="ondown">5001</param>
+						<param name="onright">$PARAM[onright]</param>
+						<param name="label">Kinderserien</param>
+						<param name="icon">&#xE04A;</param>
+						<param name="condition1">false</param>
+						<param name="condition2">true</param>
+						<param name="action1">ActivateWindow(5500)</param>
+						<param name="action2">ActivateWindow(10025,&quot;special://profile/playlists/video/Kinderserien.xsp&quot;,return)</param>
+					</include>
+					<include content="SideMenuButton">
+						<param name="id">5001</param>
+						<param name="onup">5000</param>
+						<param name="ondown">5002</param>
+						<param name="onright">$PARAM[onright]</param>
+						<param name="label">Kinderfilme</param>
+						<param name="icon">&#xE04A;</param>
+						<param name="condition1">false</param>
+						<param name="condition2">true</param>
+						<param name="action1">ActivateWindow(5001)</param>
+						<param name="action2">ActivateWindow(10025,&quot;special://profile/playlists/video/Kinderfilme.xsp&quot;,return)</param>
+					</include>
+					<include content="SideMenuButton">
+						<param name="id">5002</param>
+						<param name="onup">5001</param>
+						<param name="ondown">5003</param>
+						<param name="onright">$PARAM[onright]</param>
+						<param name="label">Fitness</param>
+						<param name="icon">&#xE04A;</param>
+						<param name="action1">ActivateWindow(10025,&quot;smb://192.168.10.20/videos/Fitness/&quot;,return)</param>
+					</include>
+					<include content="SideMenuButton">
+						<param name="id">5003</param>
+						<param name="onup">5002</param>
+						<param name="ondown">903</param>
+						<param name="onright">$PARAM[onright]</param>
+						<param name="label">Dokus</param>
+						<param name="icon">&#xE04A;</param>
+						<param name="action1">ActivateWindow(10025,&quot;smb://192.168.10.20/videos/Dokus/&quot;,return)</param>
+					</include>
+					<include content="SideMenuButton">
+						<param name="id">903</param>
+						<param name="onup">5003</param>
 						<param name="ondown">904</param>
 						<param name="onright">$PARAM[onright]</param>
 						<param name="label">3</param>
