@@ -34,7 +34,7 @@
 	</include>
 	<!-- Movie -->
 	<include name="MetaMovieInfos">
-		<param name="width">1040</param>
+		<param name="width">1600</param>
 		<definition>
 			<control type="grouplist">
 				<height>40</height>
@@ -81,7 +81,7 @@
 					<include>MpaaIcon</include>
 				</control>
 				<control type="grouplist">
-					<itemgap>10</itemgap>
+					<itemgap>5</itemgap>
 					<height>40</height>
 					<orientation>horizontal</orientation>
 					<control type="label">
