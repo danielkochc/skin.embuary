@@ -884,7 +884,7 @@
 				<texture>icons/rating/rotten_fresh.png</texture>
 				<aspectratio>keep</aspectratio>
 				<visible>!String.IsEmpty(Window(Home).Property(SkinHelper.$PARAM[type].RottenTomatoes.Rating)) + Integer.IsGreater(Window(Home).Property(SkinHelper.$PARAM[type].RottenTomatoes.Rating),59)</visible>
-			</control>e
+			</control>
 			<control type="image">
 				<animation effect="slide" end="0,3" time="0" condition="true">Conditional</animation>
 				<width>24</width>

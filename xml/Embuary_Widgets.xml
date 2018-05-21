@@ -726,7 +726,7 @@
 		<param name="visible">true</param>
 		<param name="content_visible">true</param>
 		<param name="force_visible">false</param>
-		<param name="height">723</param>
+		<param name="height">743</param>
 		<param name="headline">$LOCALIZE[416]</param>
 		<param name="mainlabel">$VAR[MainListLabel]</param>
 		<param name="sublabel">$VAR[SubListLabel]</param>
