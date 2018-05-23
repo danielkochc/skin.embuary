@@ -28,7 +28,7 @@
 					<bottom>35%</bottom>
 					<width>100%</width>
 					<height>50</height>
-					<font>Med44</font>
+					<font>Med28</font>
 					<label>$PARAM[label]</label>
 					<align>center</align>
 					<aligny>top</aligny>
@@ -156,9 +156,9 @@
 	</include>
 	<!-- Spacer for grouplists -->
 	<include name="Spacer">
-		<param name="visible" default="false"/>
-		<param name="width" default="0"/>
-		<param name="height" default="0"/>
+		<param name="visible" default="false" />
+		<param name="width" default="0" />
+		<param name="height" default="0" />
 		<definition>
 			<control type="label">
 				<width>$PARAM[width]</width>
@@ -171,7 +171,7 @@
 	</include>
 	<!-- Panel -->
 	<include name="ContentPanel">
-		<param name="width">sideWidth</param>
+		<param name="width">400</param>
 		<param name="left">0</param>
 		<param name="height">100%</param>
 		<param name="color">thumb_background</param>
@@ -188,7 +188,7 @@
 	</include>
 	<!-- Side Menu Button Layout -->
 	<include name="SideMenuButton">
-		<param name="width">sideWidth</param>
+		<param name="width">400</param>
 		<param name="icon"></param>
 		<param name="icon_left">55</param>
 		<param name="label_left">100</param>
@@ -251,7 +251,7 @@
 	</include>
 	<!-- Side Menu Headline -->
 	<include name="SideMenuHeadline">
-		<param name="width">sideWidth</param>
+		<param name="width">400</param>
 		<param name="visible">true</param>
 		<definition>
 			<control type="group" id="99$PARAM[nr]">
@@ -269,7 +269,7 @@
 					<top>20</top>
 					<width>$PARAM[width]</width>
 					<height>50</height>
-					<font>Med30</font>
+					<font>Med22</font>
 					<textcolor>panel_text</textcolor>
 					<label>$PARAM[label]</label>
 					<textoffsetx>15</textoffsetx>
@@ -290,7 +290,7 @@
 	</include>
 	<!-- Side Menu -->
 	<include name="SidePanel">
-		<param name="width">sideWidth</param>
+		<param name="width">400</param>
 		<param name="onright">10</param>
 		<definition>
 			<include content="DiffuseMask">
@@ -298,9 +298,9 @@
 			</include>
 			<control type="group">
 				<animation type="Conditional" condition="ControlGroup(9999).HasFocus" reversible="true">
-					<effect type="slide" start="0,0" end="$PARAM[width],0" time="400" tween="cubic" easing="inout"/>
+					<effect type="slide" start="0,0" end="$PARAM[width],0" time="400" tween="cubic" easing="inout" />
 				</animation>
-				<left>sideWidthNegOffset</left>
+				<left>-$PARAM[width]</left>
 				<!-- background -->
 				<include content="ContentPanel">
 					<param name="width">$PARAM[width]</param>
@@ -347,7 +347,7 @@
 					<include content="SideMenuButton">
 						<param name="id">902</param>
 						<param name="onup">901</param>
-						<param name="ondown">5000</param>
+						<param name="ondown">903</param>
 						<param name="onright">$PARAM[onright]</param>
 						<param name="label">20343</param>
 						<param name="icon">&#xE04A;</param>
@@ -358,50 +358,8 @@
 						<param name="visible">!Skin.HasSetting(HideSPTVshows)</param>
 					</include>
 					<include content="SideMenuButton">
-						<param name="id">5000</param>
-						<param name="onup">902</param>
-						<param name="ondown">5001</param>
-						<param name="onright">$PARAM[onright]</param>
-						<param name="label">Kinderserien</param>
-						<param name="icon">&#xE04A;</param>
-						<param name="condition1">false</param>
-						<param name="condition2">true</param>
-						<param name="action1">ActivateWindow(5500)</param>
-						<param name="action2">ActivateWindow(10025,&quot;special://profile/playlists/video/Kinderserien.xsp&quot;,return)</param>
-					</include>
-					<include content="SideMenuButton">
-						<param name="id">5001</param>
-						<param name="onup">5000</param>
-						<param name="ondown">5002</param>
-						<param name="onright">$PARAM[onright]</param>
-						<param name="label">Kinderfilme</param>
-						<param name="icon">&#xE04A;</param>
-						<param name="condition1">false</param>
-						<param name="condition2">true</param>
-						<param name="action1">ActivateWindow(5001)</param>
-						<param name="action2">ActivateWindow(10025,&quot;special://profile/playlists/video/Kinderfilme.xsp&quot;,return)</param>
-					</include>
-					<include content="SideMenuButton">
-						<param name="id">5002</param>
-						<param name="onup">5001</param>
-						<param name="ondown">5003</param>
-						<param name="onright">$PARAM[onright]</param>
-						<param name="label">Fitness</param>
-						<param name="icon">&#xE04A;</param>
-						<param name="action1">ActivateWindow(10025,&quot;smb://192.168.10.20/videos/Fitness/&quot;,return)</param>
-					</include>
-					<include content="SideMenuButton">
-						<param name="id">5003</param>
-						<param name="onup">5002</param>
-						<param name="ondown">903</param>
-						<param name="onright">$PARAM[onright]</param>
-						<param name="label">Dokus</param>
-						<param name="icon">&#xE04A;</param>
-						<param name="action1">ActivateWindow(10025,&quot;smb://192.168.10.20/videos/Dokus/&quot;,return)</param>
-					</include>
-					<include content="SideMenuButton">
 						<param name="id">903</param>
-						<param name="onup">5003</param>
+						<param name="onup">902</param>
 						<param name="ondown">904</param>
 						<param name="onright">$PARAM[onright]</param>
 						<param name="label">3</param>
@@ -762,6 +720,7 @@
 				<onleft condition="Control.IsVisible(52)">52</onleft>
 				<onleft condition="Control.IsVisible(53)">53</onleft>
 				<onleft condition="Control.IsVisible(58)">58</onleft>
+				<onleft condition="Control.IsVisible(59)">59</onleft>
 				<orientation>vertical</orientation>
 				<showonepage>false</showonepage>
 				<texturesliderbackground colordiffuse="ff3b3b3b">common/white.jpg</texturesliderbackground>
@@ -1338,9 +1297,10 @@
 			</control>
 			<control type="radiobutton" id="$PARAM[id]12">
 				<include content="CommonButton"/>
-				<label>$LOCALIZE[20359]</label>
+				<label>$LOCALIZE[20359] - $LOCALIZE[31219]</label>
+				<onclick condition="Skin.HasSetting(ViewEpisodeList)">Skin.ToggleSetting(ViewEpisodeList)</onclick>
 				<onclick>Container.SetViewMode(55)</onclick>
-				<selected>Control.IsVisible(55)</selected>
+				<selected>Control.IsVisible(55) + !Skin.HasSetting(ViewEpisodeList)</selected>
 				<visible>$EXP[EpisodeViewVisible]</visible>
 			</control>
 			<control type="radiobutton" id="$PARAM[id]13">
@@ -1349,6 +1309,14 @@
 				<onclick>Container.SetViewMode(53)</onclick>
 				<selected>Control.IsVisible(53)</selected>
 				<visible>$EXP[ListViewVisible]</visible>
+			</control>
+			<control type="radiobutton" id="$PARAM[id]14">
+				<include content="CommonButton"/>
+				<label>$LOCALIZE[20359] - $LOCALIZE[31220]</label>
+				<onclick condition="!Skin.HasSetting(ViewEpisodeList)">Skin.ToggleSetting(ViewEpisodeList)</onclick>
+				<onclick>Container.SetViewMode(59)</onclick>
+				<selected>Control.IsVisible(59) + Skin.HasSetting(ViewEpisodeList)</selected>
+				<visible>$EXP[EpisodeViewVisible]</visible>
 			</control>
 		</definition>
 	</include>
