@@ -212,7 +212,7 @@
 		<value condition="!String.IsEmpty(Container.ShowTitle)">$INFO[Container.ShowTitle]</value>
 		<value condition="Window.IsVisible(MyPVRGuide.xml)">$LOCALIZE[19069]</value>
 		<value condition="Window.IsVisible(MyPVRRecordings.xml)">$LOCALIZE[19017]</value>
-		<value condition="!String.IsEmpty(Container.Foldername) + String.StartsWith(Colder.Folderpath,plugin://) + !String.StartsWith(Colder.Folderpath,plugin://plugin.video.emby)">$INFO[Container.Foldername]</value>
+		<value condition="!String.IsEmpty(Container.Foldername) + String.StartsWith(Container.Folderpath,plugin://) + !String.StartsWith(Container.Folderpath,plugin://plugin.video.emby)">$INFO[Container.Foldername]</value>
 		<value condition="Container.Content(sets)">$LOCALIZE[31169]</value>
 		<value condition="Container.Content(movies)">$LOCALIZE[342]</value>
 		<value condition="Container.Content(tvshows)">$LOCALIZE[20343]</value>
@@ -220,6 +220,7 @@
 		<value condition="Container.Content(artists)">$LOCALIZE[133]</value>
 		<value condition="Container.Content(songs)">$LOCALIZE[134]</value>
 		<value condition="Container.Content(albums)">$LOCALIZE[132]</value>
+		<value condition="Container.Content(episodes)">$LOCALIZE[20360]</value>
 		<value condition="String.StartsWith(Container.FolderPath,videodb://movies)">$LOCALIZE[342]</value>
 		<value condition="String.StartsWith(Container.FolderPath,videodb://tvshows)">$LOCALIZE[20343]</value>
 		<value condition="String.StartsWith(Container.FolderPath,musicdb://)">$LOCALIZE[2]</value>
@@ -1603,5 +1604,10 @@
 	<variable name="SearchProvider">
 		<value condition="Skin.HasSetting(UseGlobalsearch)">Globalsearch</value>
 		<value>Embuary</value>
+	</variable>
+	<variable name="EpisodeListLabel">
+		<value condition="String.IsEqual(Container.Foldername,$LOCALIZE[20366])">$INFO[ListItem.Season,S,:]$INFO[ListItem.Episode,E, - ]$INFO[ListItem.Title]</value>
+		<value condition="String.IsEmpty(Container.ShowTitle)">$INFO[ListItem.TvShowTitle,, - ]$INFO[ListItem.Season,S,:]$INFO[ListItem.Episode,E, - ]$INFO[ListItem.Title]</value>
+		<value>$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
 	</variable>
 </includes>
