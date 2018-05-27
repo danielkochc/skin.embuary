@@ -44,7 +44,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(0).Folderpath]"/>
 				</include>
@@ -57,7 +57,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(1).Folderpath]"/>
 				</include>
@@ -70,7 +70,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(2).Folderpath]"/>
 				</include>
@@ -83,7 +83,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(4).Folderpath]"/>
 				</include>
@@ -96,7 +96,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(5).Folderpath]"/>
 				</include>
@@ -109,7 +109,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(6).Folderpath]"/>
 				</include>
@@ -122,7 +122,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(7).Folderpath]"/>
 				</include>
@@ -135,7 +135,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(8).Folderpath]"/>
 				</include>
@@ -148,7 +148,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(9).Folderpath]"/>
 				</include>
@@ -161,7 +161,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(10).Folderpath]"/>
 				</include>
@@ -174,7 +174,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(11).Folderpath]"/>
 				</include>
@@ -187,7 +187,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(12).Folderpath]"/>
 				</include>
@@ -200,7 +200,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(13).Folderpath]"/>
 				</include>
@@ -213,7 +213,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(14).Folderpath]"/>
 				</include>
@@ -226,7 +226,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(15).Folderpath]"/>
 				</include>
@@ -239,7 +239,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(16).Folderpath]"/>
 				</include>
@@ -252,7 +252,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(17).Folderpath]"/>
 				</include>
@@ -265,7 +265,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(20).Folderpath]"/>
 				</include>
@@ -278,7 +278,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(21).Folderpath]"/>
 				</include>
@@ -291,7 +291,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(22).Folderpath]"/>
 				</include>
@@ -304,7 +304,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(23).Folderpath]"/>
 				</include>
@@ -317,7 +317,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(24).Folderpath]"/>
 				</include>
@@ -330,7 +330,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(25).Folderpath]"/>
 				</include>
@@ -343,7 +343,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(26).Folderpath]"/>
 				</include>
@@ -356,7 +356,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(27).Folderpath]"/>
 				</include>
@@ -369,7 +369,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(28).Folderpath]"/>
 				</include>
@@ -382,7 +382,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(29).Folderpath]"/>
 				</include>
@@ -395,7 +395,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(30).Folderpath]"/>
 				</include>
@@ -408,7 +408,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(31).Folderpath]"/>
 				</include>
@@ -421,7 +421,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(32).Folderpath]"/>
 				</include>
@@ -434,7 +434,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(33).Folderpath]"/>
 				</include>
@@ -447,7 +447,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(34).Folderpath]"/>
 				</include>
@@ -460,7 +460,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(35).Folderpath]"/>
 				</include>
@@ -473,7 +473,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(36).Folderpath]"/>
 				</include>
@@ -486,7 +486,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(37).Folderpath]"/>
 				</include>
@@ -499,7 +499,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(38).Folderpath]"/>
 				</include>
@@ -512,7 +512,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(39).Folderpath]"/>
 				</include>
@@ -525,7 +525,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(40).Folderpath]"/>
 				</include>
@@ -538,7 +538,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(41).Folderpath]"/>
 				</include>
@@ -551,7 +551,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(42).Folderpath]"/>
 				</include>
@@ -564,7 +564,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(43).Folderpath]"/>
 				</include>
@@ -577,7 +577,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(44).Folderpath]"/>
 				</include>
@@ -590,7 +590,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(45).Folderpath]"/>
 				</include>
@@ -603,7 +603,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(46).Folderpath]"/>
 				</include>
@@ -616,7 +616,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(47).Folderpath]"/>
 				</include>
@@ -629,7 +629,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(48).Folderpath]"/>
 				</include>
@@ -642,7 +642,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(49).Folderpath]"/>
 				</include>
@@ -655,7 +655,7 @@
 					<param name="labels_visible" value="false"/>
 					<param name="widget_target" value="videos"/>
 					<param name="height" value="663"/>
-					<param name="sortby" value="label"/>
+					<param name="sortby" value="random"/>
 					<param name="sortorder" value="ascending"/>
 					<param name="content" value="$INFO[Container(2000).ListItemAbsolute(50).Folderpath]"/>
 				</include>
