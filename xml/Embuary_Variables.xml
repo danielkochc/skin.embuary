@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<!-- Searcg sources -->
+	<!-- Search -->
 	<variable name="EmbyCon.SearchMovies">
 		<value condition="!String.IsEmpty(Skin.String(CustomSearchTerm)) + System.HasAddon(plugin.video.embycon)">plugin://plugin.video.embycon/?item_type=Movie&amp;mode=NEW_SEARCH&amp;query=$INFO[Skin.String(CustomSearchTerm)]</value>
 	</variable>
@@ -131,6 +131,9 @@
 	</variable>
 	<variable name="InfoDialog_MoreLikeThis_Content">
 		<value condition="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)">plugin://plugin.video.embycon/?mode=GET_CONTENT&amp;media_type=Movies&amp;url=%7Bserver%7D%2Femby%2FItems%2F$INFO[ListItem.Property(id)]%2FSimilar%3FuserId%3D%7Buserid%7D%26Limit%3D%7BItemLimit%7D%26format%3Djson%26ImageTypeLimit%3D1%26IsMissing%3DFalse%26Filters%3D%7Bfield_filters%7D</value>
+		<value condition="String.IsEqual(ListItem.DBType,movie) + !String.IsEmpty(Window(home).Property(SplitGenre1)) + !String.IsEmpty(Window(home).Property(SplitGenre2)) + !String.IsEmpty(Window(home).Property(SplitGenre3))">videodb://movies/titles/?xsp=%7b%22order%22%3a%7b%22direction%22%3a%22ascending%22%2c%22ignorefolders%22%3a0%2c%22method%22%3a%22random%22%7d%2c%22rules%22%3a%7b%22and%22%3a%5b%7b%22field%22%3a%22genre%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22$INFO[Window(home).Property(SplitGenre1)]%22%5d%7d%2c%7b%22field%22%3a%22genre%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22$INFO[Window(home).Property(SplitGenre2)]%22%5d%7d%2c%7b%22field%22%3a%22genre%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22$INFO[Window(home).Property(SplitGenre3)]%22%5d%7d%2c%7b%22field%22%3a%22title%22%2c%22operator%22%3a%22isnot%22%2c%22value%22%3a%5b%22$INFO[ListItem.Title]%22%5d%7d%5d%7d%2c%22type%22%3a%22movies%22%7d</value>
+		<value condition="String.IsEqual(ListItem.DBType,movie) + !String.IsEmpty(Window(home).Property(SplitGenre1)) + !String.IsEmpty(Window(home).Property(SplitGenre2))">videodb://movies/titles/?xsp=%7b%22order%22%3a%7b%22direction%22%3a%22ascending%22%2c%22ignorefolders%22%3a0%2c%22method%22%3a%22random%22%7d%2c%22rules%22%3a%7b%22and%22%3a%5b%7b%22field%22%3a%22genre%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22$INFO[Window(home).Property(SplitGenre1)]%22%5d%7d%2c%7b%22field%22%3a%22genre%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22$INFO[Window(home).Property(SplitGenre2)]%22%5d%7d%2c%7b%22field%22%3a%22title%22%2c%22operator%22%3a%22isnot%22%2c%22value%22%3a%5b%22$INFO[ListItem.Title]%5d%7d%5d%7d%2c%22type%22%3a%22movies%22%7d</value>
+		<value condition="String.IsEqual(ListItem.DBType,movie) + !String.IsEmpty(Window(home).Property(SplitGenre1))">videodb://movies/titles/?xsp=%7b%22order%22%3a%7b%22direction%22%3a%22ascending%22%2c%22ignorefolders%22%3a0%2c%22method%22%3a%22random%22%7d%2c%22rules%22%3a%7b%22and%22%3a%5b%7b%22field%22%3a%22genre%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22$INFO[Window(home).Property(SplitGenre1)]%22%5d%7d%2c%7b%22field%22%3a%22title%22%2c%22operator%22%3a%22isnot%22%2c%22value%22%3a%5b%22moviename%22%5d%7d%5d%7d%2c%22type%22%3a%22movies%22%7d</value>
 		<value condition="String.IsEqual(ListItem.DBType,movie) + !String.IsEmpty(ListItem.IMDBNumber)">plugin://script.skin.helper.widgets/?action=similar&amp;mediatype=movies&amp;imdbid=$INFO[ListItem.IMDBNumber]</value>
 		<value>plugin://script.skin.helper.widgets/?action=similarshows&amp;imdbid=$INFO[ListItem.IMDBNumber]</value>
 	</variable>
@@ -165,26 +168,8 @@
 		<value condition="String.StartsWith(Container.FolderPath,plugin://plugin.video.emby/) + String.Contains(Container.FolderPath,type=homevideos)">$LOCALIZE[31187]</value>
 		<value condition="Window.IsVisible(1114)">$LOCALIZE[135]</value>
 		<value condition="Window.IsVisible(1115)">$LOCALIZE[283]</value>
-		<value condition="Window.IsVisible(1130)">$INFO[Window(home).Property(emby.nodes.0.title)]</value>
-		<value condition="Window.IsVisible(1131)">$INFO[Window(home).Property(emby.nodes.1.title)]</value>
-		<value condition="Window.IsVisible(1132)">$INFO[Window(home).Property(emby.nodes.2.title)]</value>
-		<value condition="Window.IsVisible(1133)">$INFO[Window(home).Property(emby.nodes.3.title)]</value>
-		<value condition="Window.IsVisible(1134)">$INFO[Window(home).Property(emby.nodes.4.title)]</value>
-		<value condition="Window.IsVisible(1135)">$INFO[Window(home).Property(emby.nodes.5.title)]</value>
-		<value condition="Window.IsVisible(1136)">$INFO[Window(home).Property(emby.nodes.6.title)]</value>
-		<value condition="Window.IsVisible(1137)">$INFO[Window(home).Property(emby.nodes.7.title)]</value>
-		<value condition="Window.IsVisible(1138)">$INFO[Window(home).Property(emby.nodes.8.title)]</value>
-		<value condition="Window.IsVisible(1139)">$INFO[Window(home).Property(emby.nodes.9.title)]</value>
-		<value condition="Window.IsVisible(1160)">$INFO[Window(home).Property(plugin.video.embycon-view_item.0.name)]</value>
-		<value condition="Window.IsVisible(1161)">$INFO[Window(home).Property(plugin.video.embycon-view_item.1.name)]</value>
-		<value condition="Window.IsVisible(1162)">$INFO[Window(home).Property(plugin.video.embycon-view_item.2.name)]</value>
-		<value condition="Window.IsVisible(1163)">$INFO[Window(home).Property(plugin.video.embycon-view_item.3.name)]</value>
-		<value condition="Window.IsVisible(1164)">$INFO[Window(home).Property(plugin.video.embycon-view_item.4.name)]</value>
-		<value condition="Window.IsVisible(1165)">$INFO[Window(home).Property(plugin.video.embycon-view_item.5.name)]</value>
-		<value condition="Window.IsVisible(1166)">$INFO[Window(home).Property(plugin.video.embycon-view_item.6.name)]</value>
-		<value condition="Window.IsVisible(1167)">$INFO[Window(home).Property(plugin.video.embycon-view_item.7.name)]</value>
-		<value condition="Window.IsVisible(1168)">$INFO[Window(home).Property(plugin.video.embycon-view_item.8.name)]</value>
-		<value condition="Window.IsVisible(1169)">$INFO[Window(home).Property(plugin.video.embycon-view_item.9.name)]</value>
+		<value condition="Window.IsVisible(1130)">$INFO[Control.GetLabel(199)]</value>
+		<value condition="Window.IsVisible(1131)">$INFO[Control.GetLabel(199)]</value>
 		<value condition="String.StartsWith(Container.FolderPath,videodb://movies/genres/)">$INFO[Container.Foldername]</value>
 		<value condition="String.StartsWith(Container.FolderPath,videodb://tvshows/genres/)">$INFO[Container.Foldername]</value>
 		<value condition="String.StartsWith(Container.FolderPath,plugin://script.skin.helper.widgets/?action=browsegenres)">$LOCALIZE[135]</value>
@@ -328,6 +313,7 @@
 		<value condition="!String.IsEmpty(ListItem.Art(tvshow.landscape))">$INFO[ListItem.Art(tvshow.landscape)]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(landscape))">$INFO[ListItem.Art(landscape)]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(tvshow.fanart))">$INFO[ListItem.Art(tvshow.fanart)]</value>
+		<value condition="[Container.Content(videos) | String.IsEqual(ListItem.DBType,video) | [String.StartsWith(ListItem.Path,plugin://) + !String.StartsWith(ListItem.Path,plugin://plugin.video.emby)]] + !String.StartsWith(ListItem.Icon,Default)">$INFO[ListItem.Icon]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(fanart)) + [!String.IsEmpty(ListItem.DBType) | String.StartsWith(ListItem.Path,plugin://) | Window.IsVisible(addonbrowser) | Window.IsVisible(programs)]">$INFO[ListItem.Art(fanart)]</value>
 		<value condition="!String.IsEmpty(ListItem.Property(fanart))">$INFO[ListItem.Property(fanart)]</value>
 		<value condition="!String.StartsWith(ListItem.Icon,Default)">$INFO[ListItem.Icon]</value>
